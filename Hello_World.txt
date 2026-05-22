@@ -1,0 +1,28 @@
+print("Hello world")
+greeting = "Hello Thomas"
+print(greeting)
+
+# Differemt types of strings
+string_eg1 = "This is a string." # A string contains speech marks/inverted commas
+string_eg2 = "7"
+
+# Addition example
+num_1 = "7"
+num_2 = "5"
+
+sum = num_1 + num_2
+print(sum)
+
+
+num_1 = 7
+num_2 = 5
+
+sum = num_1 + num_2
+print(sum)
+
+num_1 = 7.5 # float
+num_2 = 5 # interger
+
+# coffee program. Cheaking whether you like Coffee
+like_coffee = input("Do you like coffee?")
+print(like_coffee)
