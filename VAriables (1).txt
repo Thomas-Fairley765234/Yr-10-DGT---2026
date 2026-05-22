@@ -1,0 +1,65 @@
+# Demonstrate how variables are created and how they work
+# Author: Thomas Fairley
+# Date: 6th May 2026
+# Version 1.1
+# TODO:
+#       Store a string
+#       Store different types of numbers
+#       Assign the value of one variable to another
+#       Do calculations with variables and store there results
+
+# Store a string
+greeting = "Hello World!"
+print(greeting)
+random_variable = "7"  # Storing a number as text
+print(random_variable)
+
+# Store different types of numbers
+# Storing an integer (Whole Number)
+num_1 = 7
+print(f"The varibale called num_1 which contains {num_1} is a {type(num_1)
+
+# Stores a float a numbers (a number with a decimal)
+num_2 = 9.5
+print(f"The varibale called num_2 which contains {num_2} is a {type(num_2)
+
+# Assign the value of one variable to another
+num_2 = greeting
+print(f"num_2 has the value of (greeting).")
+printf(f"num_2 has now become a {type(num_2)}")
+
+# Do calculations with variables and store the results.
+# Create a new variable
+num_1 = 5
+num_2 = 18
+
+# Add up numbers
+sum = 5 + 18
+print(sum)
+
+sum = num_1 + num_2
+print(sum)
+
+# Add up strings
+sum_string1 = "18"
+sum_string2 = "5"
+
+sum_string_total = sum_string1 + sum_string2
+print(sum_string_total)
+
+# Total prints is 185.
+#It is text
+#Print formatting
+#f stands for 'format'.
+#Insert the value of the variable into the string.
+# using curly brackets.
+print(f"My calculations for adding {num_1} and {num_2} together is {sum}.")
+
+print("My calculation for concatenating {} and {} is {}.".format(sum_string))
+
+# Greet someone
+name = "Thomas"
+print("Kia ora, my name is ",name)
+print("Kia ora, my name is {}.".format(name))
+print(f"Kia ora, my name is {name}.")
+
