@@ -1,0 +1,41 @@
+# demonstrate how to use an if statement
+# Author: Thomas Fairley
+# 1st May 2026
+# version 1st
+
+'''TODO: Create a program that will ask the user wether they like coffee or not. If they do not like coffee, i will try to persuade them to try it.'''
+
+# Checking wether you like Coffee and stores the answer input
+# a variable
+
+# coffee program. Cheaking whether you like Coffee
+'''like_coffee = input("Do you like coffee?")
+print(like_coffee)
+
+if like_coffee == "Yes":
+    print("That is great! I like coffee too!")
+    
+elif like_coffee == "No":
+    print("You are missing out! Why not give it a try?")
+    
+else:
+    print("Try again") '''  
+    
+keep_going = input("Press <enter> to continue or any other key to quit")
+    
+keep_going = ""
+while keep_going == "":
+    print("Looping")
+    print("Still looping")
+    keep_going = input("Again?")
+    
+    print ("All done.")
+
+    # Number demo
+    num_1 = int(input("Please eneter your first number: "))
+    num_2 = int(input("Please eneter your second number: "))
+    
+    sum = num_1 + num_2
+    
+    print(f"The answer to both your numbers added together is {sum}")
+
